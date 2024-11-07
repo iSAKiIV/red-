@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Envio de Redações - Red+ ENEM</title>
+  <link rel="stylesheet" href="content-style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <h1>Envio de Redações - Red+ ENEM</h1>
+    </div>
+    <nav>
+      <a href="index.html" class="button">Voltar ao Início</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="upload-section" class="section-area">
+      <h2>Envie Sua Redação</h2>
+      <p>Faça o upload de sua redação em PDF ou texto.</p>
+      <form id="upload-form">
+        <label for="file-upload">Selecione o arquivo:</label>
+        <input type="file" id="file-upload" accept=".pdf, .txt" required>
+        <button type="button" onclick="uploadEssay()">Enviar Redação</button>
+      </form>
+      <p id="upload-status"></p>
+    </section>
+    
+    <section id="essay-list" class="section-area">
+      <!-- Redações enviadas serão listadas aqui -->
+    </section>
+
+    <script>
+      // Exibir as redações enviadas quando a página carregar
+      document.addEventListener("DOMContentLoaded", () => {
+        displayEssays();
+      });
+    </script>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Red+ ENEM. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>

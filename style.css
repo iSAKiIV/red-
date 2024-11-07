@@ -1,0 +1,204 @@
+/* Estilos Gerais */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #F5F5F5;
+  color: #333;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #D32F2F;
+  color: #FFF;
+  padding: 20px;
+  text-align: center;
+}
+
+header .logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header h1 {
+  margin-left: 15px;
+}
+
+/* Navegação */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: #FFF;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #FFC107;
+}
+
+/* Dashboard */
+#dashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+#estatisticas {
+  width: 100%;
+  max-width: 700px;
+  height: 300px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Seção de Questões */
+#questoes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#question-area {
+  width: 100%;
+  max-width: 700px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.question {
+  margin: 10px 0;
+  text-align: left;
+}
+
+.question p {
+  font-weight: bold;
+}
+
+.question button {
+  margin: 5px;
+  padding: 8px 16px;
+  background-color: #D32F2F;
+  color: #FFF;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.question button:hover {
+  background-color: #B71C1C;
+}
+
+/* Calendário */
+#calendario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#calendar {
+  width: 100%;
+  max-width: 700px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Seções Gerais */
+.section-area {
+  background-color: #FFF;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  text-align: center;
+}
+
+.section-area h2 {
+  color: #D32F2F;
+}
+
+.section-area p {
+  font-size: 1em;
+  color: #666;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  color: #FFF;
+  background-color: #D32F2F;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #B71C1C;
+}
+
+/* Rodapé */
+footer {
+  background-color: #D32F2F;
+  color: #FFF;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Estilos para a Loja e Ranking */
+#shop-area ul, #ranking-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+#shop-area li, #ranking-list li {
+  font-size: 1em;
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#shop-area button, #ranking-list button {
+  padding: 5px 10px;
+  background-color: #D32F2F;
+  color: #FFF;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#shop-area button:hover, #ranking-list button:hover {
+  background-color: #B71C1C;
+}

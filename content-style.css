@@ -1,0 +1,90 @@
+/* Estilos Gerais para Páginas de Conteúdo */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #FAFAFA;
+  color: #333;
+}
+
+header {
+  background-color: #D32F2F;
+  color: #FFF;
+  padding: 20px;
+  text-align: center;
+}
+
+header .logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header h1 {
+  margin-left: 10px;
+}
+
+nav a.button {
+  display: inline-block;
+  padding: 8px 15px;
+  background-color: #B71C1C;
+  color: #FFF;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+nav a.button:hover {
+  background-color: #9E1919;
+}
+
+main {
+  padding: 20px;
+}
+
+.section-area {
+  background-color: #FFF;
+  padding: 15px;
+  margin: 15px auto;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  text-align: center;
+}
+
+.section-area h2 {
+  color: #D32F2F;
+  margin-bottom: 10px;
+}
+
+.section-area ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.section-area ul li {
+  background-color: #f0f0f0;
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.section-area ul li a {
+  text-decoration: none;
+  color: #D32F2F;
+  font-weight: bold;
+}
+
+.section-area ul li a:hover {
+  color: #9E1919;
+}
+
+footer {
+  background-color: #D32F2F;
+  color: #FFF;
+  padding: 10px;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
